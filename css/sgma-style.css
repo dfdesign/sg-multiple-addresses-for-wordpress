@@ -1,0 +1,44 @@
+	#address-form{
+		display: flex;
+		flex-direction: column;
+	}
+	#address-form div{
+		display: flex;
+    	flex-direction: column;
+	}
+	#address-form .radio{
+    	flex-direction: row;
+	}
+
+	.sgma-adress-box-container{
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		grid-template-rows: 1fr;
+		grid-column-gap: 10px;
+		grid-row-gap: 10px;
+		width: 100%
+	}
+	.sgma-adress-box{
+		padding: 20px;
+		background: #fff;
+		border: 1px solid #ebebeb;
+		position:relative
+	}
+	.sgma-address-default{
+		background: #edf6f3
+	}
+	.sgma-address-box-container-top-title{
+		position: absolute;
+		top: 0;
+		background: green;
+		color: #fff;
+		padding: 3px 5px;
+	}
+	.sgma-address-box span{
+		display: flex;
+		margin-bottom: 5px
+	}
+	.sgma-address-value{
+		font-weight: 600;
+		font-size: 22px
+	}
